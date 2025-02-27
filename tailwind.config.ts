@@ -13,6 +13,9 @@ const config: Config = {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -82,9 +85,27 @@ const config: Config = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      transform: {
+        'rotate-y-180': 'rotateY(180deg)',
+      },
+      backfaceVisibility: {
+        hidden: 'hidden',
+      },
     },
   },
-  plugins: [tailwindAnimate],
+  plugins: [
+    tailwindAnimate,
+    function ({ addUtilities }) {
+      addUtilities({
+        '.backface-hidden': {
+          backfaceVisibility: 'hidden',
+        },
+        '.rotate-y-180': {
+          transform: 'rotateY(180deg)',
+        },
+      });
+    },
+  ],
 };
 
 export default config;
