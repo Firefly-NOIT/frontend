@@ -7,7 +7,7 @@ export default function StreamModel() {
       <Navbar />
       <div className=" h-auto flex flex-row justify-center m-10 p-10 " >
         <div className="bg-white h-150 w-240 m-10 ">
-          <video className="w-full h-full" playsInline loop muted autoPlay src="https://stream.mux.com/6fiGM5ChLz8T66ZZiuzk1KZuIKX8zJz00/medium.mp4"/>
+          <video className="w-full h-full object-cover" playsInline loop muted autoPlay src="https://cdn.pixabay.com/video/2022/11/04/137720-767473363_large.mp4"/>
 
         </div>
         <div className="bg-red-500 h-150 w-60 m-10  ">

@@ -25,14 +25,14 @@ export default function Home() {
   return (
     <div className={"bg-black bg-fixed w-screen h-auto m-0 p-0"}>
       <Navbar />
-      <div className=" w-full h-100">
+      <div className=" w-screen h-100">
         <video
-          className="w-full h-100"
+          className="w-screen h-100 object-cover"
           playsInline
           loop
           muted
           autoPlay
-          src="https://stream.mux.com/6fiGM5ChLz8T66ZZiuzk1KZuIKX8zJz00/medium.mp4"
+          src="https://cdn.pixabay.com/video/2022/11/04/137720-767473363_large.mp4"
         />
       </div>
       <div className=" bg-[#D3EAFD] h-120 flex items-center ">
