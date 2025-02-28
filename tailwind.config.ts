@@ -2,7 +2,6 @@ import tailwindAnimate from "tailwindcss-animate";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
-  darkMode: ["class"],
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     container: {
@@ -14,7 +13,7 @@ const config: Config = {
     },
     extend: {
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
+        sansation: ['"Sansation Light"', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",
