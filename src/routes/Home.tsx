@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { useState } from "react";
-import droneImage from "../assets/droneImage.png";
+import droneImage from "../assets/droneimage.png";
 import idea from "../assets/idea.png";
 import team  from "../assets/team.png";
 import aim  from "../assets/aim.png";
