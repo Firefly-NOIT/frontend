@@ -29,7 +29,7 @@ export default function Footer() {
             </div>
             <div className="flex flex-col items-center w-1/3">
               <div><img src={linkedIn} alt="Logo" className="w-18 h-18 mb-2"/></div>
-              <div><Link className="cursor-pointer text-base hover:text-gray-500" to="https://github.com/Firefly-NOIT">Our LinkedIn</Link></div>
+              <div><Link className="cursor-pointer text-base hover:text-gray-500" to="https://www.linkedin.com/in/firefly-drone-b06454354/">Our LinkedIn</Link></div>
             </div>
             
           </CardDescription>
